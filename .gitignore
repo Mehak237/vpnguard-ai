@@ -10,3 +10,14 @@ ENV/
 .idea/
 .vscode/
 *.log
+
+# Ignore presentation, sample datasets, test pdfs, and Docker lab from GitHub
+presentation/
+sample_pcaps/
+test_upload_pcaps/
+docker-lab/
+*.pdf
+*.pptx
+*.pcap
+frontend/presentation.html
+generate_test_pdf.py
